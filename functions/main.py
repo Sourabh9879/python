@@ -6,6 +6,7 @@ youDict = { "s" : 1, "w" : 0, "g" : -1}
 reversedDict = { 1 : "Snake", 0 : "Water", -1 : "Gun"}
 num = input("Enter your choice ( s, w, g) :")
 yourNum = youDict[num]
+# used f string to insert value btwn
 print(f"You Chose {reversedDict[yourNum]} \nComputer Chose {reversedDict[computer]}")
 
 if(computer == yourNum):
